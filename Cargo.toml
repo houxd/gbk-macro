@@ -2,5 +2,14 @@
 name = "gbk-macro"
 version = "0.1.0"
 edition = "2024"
+description = "Compile-time UTF-8 to GBK/GB2312 byte array macros for embedded (no_std) targets"
+license = "MIT"
+
+[lib]
+proc-macro = true
 
 [dependencies]
+encoding_rs = "0.8"
+proc-macro2 = "1"
+quote = "1"
+syn = "2"
