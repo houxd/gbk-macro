@@ -1,6 +1,6 @@
 [package]
 name = "gbk-macro"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
 description = "Compile-time UTF-8 to GBK/GB2312 byte array macros for embedded (no_std) targets"
 license = "MIT"
